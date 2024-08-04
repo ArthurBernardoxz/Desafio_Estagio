@@ -76,5 +76,4 @@ public class ImpostoController {
 1. **Entendimento do Spring Boot**: Inicialmente, tive dificuldade em entender como configurar e utilizar o Spring Boot, o que me levou a gastar mais tempo pesquisando do que implementando a prática.
 2. **Lógica de Cálculo do Imposto**: Compreendi que a lógica de cálculo do imposto deveria ser implementada no serviço (`ImpostoService`). A lógica foi baseada em condicionais para determinar a faixa de imposto correta e calcular o valor a ser pago.
 3. **Tipos de Dados**: Foi necessário alterar o tipo da variável imposto e do valor recebido para `Double`, pois estavam ocorrendo erros de tipo durante as operações de cálculo.
-4. **Configuração do Controlador**: Entendi que no controlador (`ImpostoController`) eu deveria definir a URL do endpoint e o método HTTP a ser utilizado (POST, neste caso).
-5. **Problemas de Acesso ao Servidor**: Ao tentar acessar o Swagger UI em `http://localhost:8080/swagger-ui/html`, encontrei um erro. A URL correta é `http://localhost:8080/swagger-ui/index.html`.
+4. **Problemas de Acesso ao Servidor**: Ao tentar acessar o Swagger UI em `http://localhost:8080/swagger-ui/html`, encontrei um erro. A URL correta é `http://localhost:8080/swagger-ui/index.html`.
